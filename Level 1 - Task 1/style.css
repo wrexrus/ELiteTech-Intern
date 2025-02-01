@@ -1,0 +1,136 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    .logo img{
+       width: 200px; 
+    }
+    nav{
+        font-size: 1.5rem;
+    }
+    body {
+        background: orange;
+        color: #333;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+        background: #0b2e5c;    
+        color: #fff;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        background-color: #2564b6;
+        border-radius: 20%;
+    }
+
+    /* Hero Section */
+    .hero {
+        text-align: center;
+        padding: 100px 10%;
+        background: linear-gradient(to bottom, #0b2e5c, #00c6ff);
+        color: #fff;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        margin: 10px 0 20px;
+        font-size: 1.2rem;
+    }
+
+    .hero a:hover{
+        background-color: #89aede;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background: #fff;
+        color: #007bff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #ddd;
+    }
+
+    /* Features */
+    .features {
+        padding: 60px 10%;
+        background: linear-gradient(to bottom, #00c6ff, #e0c043);
+        text-align: center;
+    }
+
+    .feature-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .feature-box {
+        width: 30%;
+        padding: 20px;
+        background: #007bff;
+        color: #fff;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .feature-box:hover {
+        background: #0056b3;
+    }
+    .features h2{
+        color: black;
+    }
+    /* About Section */
+    .about {
+        color: black;
+        text-align: center;
+        padding: 60px 10%;
+        background: linear-gradient(to bottom, #e0c043,#00c6ff);
+    }
+
+    /* Contact Section */
+    .contact {
+        color: black;
+        text-align: center;
+        padding: 60px 10%;
+        background: linear-gradient(to bottom,#00c6ff,#ffcc00a4);
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #222;
+        color: #fff;
+        margin-top: 20px;
+    }
