@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Rushabh's Portfolio</title>
+</head>
+<body>
+    <!-- Header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>Hi, Myself</h2>
+            <h1>Rushabh Wagh</h1>
+            <h2>And I'm a <span> Developer</span></h2>
+            <p class="start-about">Hello! I am a pre-final year student pursuing B.Tech. CSE at VIT Bhopal University. I am passionate about Open Source and Web Development.
+            Keeping a keen interest in the field of Artificial Intelligence, I'm always eager to learn new skills and contribute to innovative projects.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/_rushabh03/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rushabh-wagh-193b15229/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/rushabh_tw"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/wrexrus"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <!-- <img src="images/pic2.jpg" alt=""> -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Facial Detection</h3>
+                <!-- <h4>Front End Developer</h4> -->
+                <p>Facial Detection project involving Machine Learning and Web Development. Designed and 
+                    implemented a facial detection system that streamlines the process of sharing medical 
+                    details with doctors, enhancing efficiency and reducing manual intervention. Mine major 
+                    role was to integrate the Models and a Web Page which will able to Detect the face of the 
+                    Patient </p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Diabetes Prediction Model </h3>
+                <!-- <h4>Machine Learning Major</h4> -->
+                <p>Project aimed to develop a model capable of predicting the likelihood of diabetes using 
+                    diverse datasets. We utilized K-Nearest Neighbors (KNN), XGBoost, and Support Vector 
+                    Machine (SVM) algorithms to ensure a robust and comparative analysis. We deployed one 
+                    dataset on Streamlit, offering an interactive platform for testing diabetes predictions. </p>
+                <a href="https://github.com/wrexrus/Diabetes-Prediction" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Disaster Management Web-App</h3>
+                <p>Ongoing</p>
+                <!-- <h4>Developer</h4> -->
+                <p></p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>
