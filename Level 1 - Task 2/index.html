@@ -82,12 +82,16 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <h2 class="section-title">Contact</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="6" placeholder="Your Message" required></textarea>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="800faf96-0642-44fe-9327-bddd3887027d">
+        
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            
             <button type="submit" class="btn">Send Message</button>
         </form>
+        
     </section>
 
     <script src="javascript/main.js"></script>
