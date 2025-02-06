@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, red, #2a5298);
+    color: black;
+}
+
+/* Main Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(10px);
+}
+
+/* Headings */
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+
+/* Input Field */
+input {
+    width: 85%;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+/* Dropdown */
+select {
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    outline: none;
+    background: pink;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+select:hover, select:focus {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px rgba(255, 100, 100, 0.6);
+}
+
+button:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+    transform: scale(1.05);
+}
+
+/* Output Result */
+h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
