@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d046faef, #4e085f);
+    padding: 10px;
+}
+
+
+.todo-app{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #bc23b2b1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.todo-app h2 img{
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.703);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+#input-box{
+    color: black;
+}
+
+button{
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background:#7800a7;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: #d046faef;
+}
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url('unchecked_1.png');
+    /* background-image: url('https://img.icons8.com/ios/452/checked-checkbox.png'); */
+    background-size: cover;
+    top: 12px;
+    left: 10px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+background-image: url('checked_1.png');
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+ul li span:hover{
+    background-color: #cb2dc1;
+}
+
+.timestamp{
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 4px 10px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 20px;
+    font-style: italic;
+}
