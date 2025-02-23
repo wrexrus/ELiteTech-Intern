@@ -1,0 +1,16 @@
+Steps to Make your own Login Authentication
+
+# your system must have node js --> this requires a older version (20)
+# and u may need to install that and then type a command
+---> nvm use 20 
+Also u should be having a mongodb compass for handling databases!
+Install requirements
+command below >>
+---> npm install express  ( Express.js - For handling routes )
+      It will install
+     --> required node modules
+     --> package json files
+     --> package lock json files
+---> npm install mongoose  ( MongoDB & Mongoose - For storing user data )
+---> npm install bcrypt  ( bcrypt - For password encryption )
+---> npm install ejs ( EJS - For rendering dynamic pages )
